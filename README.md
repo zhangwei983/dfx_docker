@@ -13,7 +13,7 @@ docker build -t dfx_docker .
 Use the below command to run a docker container
 
 ```bash
-docker run -td dfx_docker
+docker run --name dfx_container -td dfx_docker
 ```
 
 The docker image has been pushed to the DockerHub.
